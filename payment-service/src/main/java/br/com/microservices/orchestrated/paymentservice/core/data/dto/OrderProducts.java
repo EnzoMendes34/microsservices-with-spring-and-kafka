@@ -2,13 +2,16 @@ package br.com.microservices.orchestrated.paymentservice.core.data.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Getter
 public class OrderProducts {
 
     private Product product;
     private int quantity;
+
 }
